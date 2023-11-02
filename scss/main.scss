@@ -63,14 +63,13 @@ header {
             margin-right: 6vw; 
         }
 
-        article {
-            p {
-                color: $accent;
-                font-weight: bold;
-                font-size: 0.8rem;
-                text-align: right;
-            }
+        p {
+            color: $accent;
+            font-weight: bold;
+            font-size: 0.8rem;
+            text-align: right;
         }
     }
 }
+
 
