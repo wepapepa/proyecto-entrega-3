@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Ubuntu;
+}
+
+header {
+  font-weight: bold;
+}
+header .navbar {
+  background-color: #000000;
+}
+header .navbar .navbar-brand {
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #ebcdc1;
+}
+header .navbar .nav-link {
+  color: #ebcdc1;
+}
+header .navbar .navbar-text {
+  color: #993c15;
+  margin-right: 2vw;
+}
+
+.hero-section #background-video {
+  width: 100vw;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: brightness(60%);
+}
+.hero-section .title-card {
+  margin-left: 4vw;
+  padding-top: 6vh;
+}
+.hero-section .title-card h1 {
+  color: #ebcdc1;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 5vh;
+  margin-right: 6vw;
+}
+.hero-section .title-card article p {
+  color: #ff8080;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-align: right;
+}/*# sourceMappingURL=main.css.map */

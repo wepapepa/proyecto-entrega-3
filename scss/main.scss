@@ -1,0 +1,76 @@
+$text: #ebcdc1;
+$background: #000000;
+$primary: #993c15;
+$secondary: #32150b;
+$accent: #ff8080;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Ubuntu;
+}
+
+header {
+    font-weight: bold;
+
+    .navbar {
+        background-color: $background;
+       
+        .navbar-brand {
+            font-style: italic;
+            font-size: 1.5rem;
+            color: $text;
+        }
+
+        .nav-link {
+            color: $text;
+        }
+
+        .navbar-text {
+            color: $primary;
+            margin-right: 2vw;
+        }
+    }
+}
+
+.hero-section {
+
+    #background-video {
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        filter: brightness(60%);
+    }
+
+    .title-card {
+        margin-left: 4vw;
+        padding-top: 6vh;
+
+        h1 {
+            color: $text;
+            font-weight: bold;
+            text-align: right;
+            margin-top: 5vh;
+            margin-right: 6vw; 
+        }
+
+        article {
+            p {
+                color: $accent;
+                font-weight: bold;
+                font-size: 0.8rem;
+                text-align: right;
+            }
+        }
+    }
+}
+
