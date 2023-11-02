@@ -19,10 +19,10 @@ header .navbar .navbar-brand {
   color: #ebcdc1;
 }
 header .navbar .nav-link {
-  color: #ebcdc1;
+  color: #7c2f0e;
 }
 header .navbar .navbar-text {
-  color: #993c15;
+  color: #7c2f0e;
   margin-right: 2vw;
 }
 
@@ -41,23 +41,27 @@ header .navbar .navbar-text {
 }
 .hero-section .title-card {
   margin-left: 4vw;
+  margin-top: 5vh;
   padding-top: 6vh;
 }
 .hero-section .title-card h1 {
   color: #ebcdc1;
+  font-size: 6rem;
   font-weight: bold;
   text-align: right;
-  margin-top: 5vh;
+  margin-top: 2vh;
   margin-right: 6vw;
 }
 .hero-section .title-card h1 span:hover {
   -webkit-text-stroke: 4px #ff8080;
   color: transparent;
 }
-.hero-section .title-card p {
+.hero-section p {
+  margin-top: 2vh;
+  margin-right: 6vw;
   color: #ff8080;
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size: 1.8rem;
   text-align: right;
 }
 
@@ -67,18 +71,35 @@ header .navbar .navbar-text {
   width: 100vw;
 }
 .aesthetic-section .circle-shape {
+  margin-top: 5vh;
   width: 40px;
   height: 40px;
   border-radius: 100%;
   background-color: #ff8080;
-  justify-content: right;
-  align-items: right;
 }
 .aesthetic-section img {
   width: 600px;
 }
 .aesthetic-section h3 {
+  margin-top: 5vh;
   font-weight: bold;
-  color: #ff8080;
+  color: #ebcdc1;
   font-size: 4rem;
+}
+.aesthetic-section p {
+  background-color: #32150b;
+  padding: 4vh;
+  margin-top: 2vh;
+  border-radius: 20px;
+  border: 2px solid #32150b;
+  color: #ebcdc1;
+}
+.aesthetic-section p .location-btn {
+  margin-top: 2vh;
+  padding: 1vh;
+  background-color: #7c2f0e;
+  color: #ebcdc1;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px #000000;
 }/*# sourceMappingURL=main.css.map */
