@@ -78,8 +78,26 @@ header {
 }
 
 .aesthetic-section {
+    margin-top: 50vh;
+    background-color: $background;
+    width: 100vw;
+
+    .circle-shape {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        background-color: $accent;
+        justify-content: right;
+        align-items: right;
+    }
     img {
-        width: 400px;
+        width: 600px;
+    }
+
+    h3 {
+        font-weight: bold;
+        color: $accent;
+        font-size: 4rem;
     }
 
 }

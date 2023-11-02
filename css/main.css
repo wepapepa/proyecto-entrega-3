@@ -61,6 +61,24 @@ header .navbar .navbar-text {
   text-align: right;
 }
 
+.aesthetic-section {
+  margin-top: 50vh;
+  background-color: #000000;
+  width: 100vw;
+}
+.aesthetic-section .circle-shape {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #ff8080;
+  justify-content: right;
+  align-items: right;
+}
 .aesthetic-section img {
-  width: 400px;
+  width: 600px;
+}
+.aesthetic-section h3 {
+  font-weight: bold;
+  color: #ff8080;
+  font-size: 4rem;
 }/*# sourceMappingURL=main.css.map */
