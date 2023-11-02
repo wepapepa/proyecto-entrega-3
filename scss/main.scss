@@ -61,6 +61,11 @@ header {
             text-align: right;
             margin-top: 5vh;
             margin-right: 6vw; 
+
+            span:hover {
+                -webkit-text-stroke: 4px $accent;
+                color: transparent;
+            }
         }
 
         p {
@@ -70,6 +75,13 @@ header {
             text-align: right;
         }
     }
+}
+
+.aesthetic-section {
+    img {
+        width: 400px;
+    }
+
 }
 
 

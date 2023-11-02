@@ -50,9 +50,17 @@ header .navbar .navbar-text {
   margin-top: 5vh;
   margin-right: 6vw;
 }
+.hero-section .title-card h1 span:hover {
+  -webkit-text-stroke: 4px #ff8080;
+  color: transparent;
+}
 .hero-section .title-card p {
   color: #ff8080;
   font-weight: bold;
   font-size: 0.8rem;
   text-align: right;
+}
+
+.aesthetic-section img {
+  width: 400px;
 }/*# sourceMappingURL=main.css.map */
