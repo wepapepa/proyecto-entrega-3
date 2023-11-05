@@ -8,10 +8,11 @@ $accent: #ff8080;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Ubuntu;
 }
 
 body {
-    font-family: Ubuntu;
+    background-color: $background;
 }
 
 header {
@@ -40,9 +41,7 @@ header {
 }
 
 .hero-section {
-
-  
-    
+    margin-bottom: 50vh;
 
     #background-video {
         width: 100%;
@@ -88,6 +87,24 @@ header {
     }
 }
 
+.icon-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+        color: $primary;
+        font-size: 4rem;
+        padding: 2vw;
+    }
+
+    i:hover {
+        color: $accent;
+        cursor: pointer;
+        font-size: 5rem;
+    }
+}
+
 .aesthetic-section {
     margin-top: 1vh;
     background-color: $background;
@@ -102,9 +119,8 @@ header {
 
     }
     img {
-        width: 600px;
-        justify-content: center;
-        align-items: center;
+        width: 700px;
+        
     }
 
     h3 {
@@ -135,4 +151,26 @@ header {
 
 }
 
+footer {
+    background-color: $background;
+    color: $accent;
+
+    h1 {
+        writing-mode: vertical-rl;
+        font-size: 4rem;
+        font-family: Space Grotesk;
+        font-style: italic;
+        transform: rotate(180deg);
+    }
+
+    h4 {
+        font-weight: 800;
+        font-style: italic;
+    }
+
+    .container-fluid {
+        width: 75vw;
+    }
+
+  }
 

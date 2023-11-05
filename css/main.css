@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Ubuntu;
 }
 
 body {
-  font-family: Ubuntu;
+  background-color: #000000;
 }
 
 header {
@@ -29,6 +30,9 @@ header .navbar .navbar-text {
   margin-right: 2vw;
 }
 
+.hero-section {
+  margin-bottom: 50vh;
+}
 .hero-section #background-video {
   width: 100%;
   height: 100%;
@@ -69,6 +73,22 @@ header .navbar .navbar-text {
   text-align: right;
 }
 
+.icon-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-column i {
+  color: #7c2f0e;
+  font-size: 4rem;
+  padding: 2vw;
+}
+.icon-column i:hover {
+  color: #ff8080;
+  cursor: pointer;
+  font-size: 5rem;
+}
+
 .aesthetic-section {
   margin-top: 1vh;
   background-color: #000000;
@@ -82,9 +102,7 @@ header .navbar .navbar-text {
   background-color: #ff8080;
 }
 .aesthetic-section img {
-  width: 600px;
-  justify-content: center;
-  align-items: center;
+  width: 700px;
 }
 .aesthetic-section h3 {
   margin-top: 5vh;
@@ -108,4 +126,23 @@ header .navbar .navbar-text {
   border-radius: 10px;
   border: 2px solid #000000;
   box-shadow: 2px 2px #000000;
+}
+
+footer {
+  background-color: #000000;
+  color: #ff8080;
+}
+footer h1 {
+  writing-mode: vertical-rl;
+  font-size: 4rem;
+  font-family: Space Grotesk;
+  font-style: italic;
+  transform: rotate(180deg);
+}
+footer h4 {
+  font-weight: 800;
+  font-style: italic;
+}
+footer .container-fluid {
+  width: 75vw;
 }/*# sourceMappingURL=main.css.map */
