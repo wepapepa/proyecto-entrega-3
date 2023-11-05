@@ -65,12 +65,12 @@ header .navbar .navbar-text {
   margin-right: 6vw;
   color: #ff8080;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   text-align: right;
 }
 
 .aesthetic-section {
-  margin-top: 50vh;
+  margin-top: 1vh;
   background-color: #000000;
   width: 100vw;
 }
@@ -83,6 +83,8 @@ header .navbar .navbar-text {
 }
 .aesthetic-section img {
   width: 600px;
+  justify-content: center;
+  align-items: center;
 }
 .aesthetic-section h3 {
   margin-top: 5vh;
