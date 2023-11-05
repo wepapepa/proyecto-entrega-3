@@ -87,6 +87,7 @@ header .navbar .navbar-text {
   color: #ff8080;
   cursor: pointer;
   font-size: 5rem;
+  transition: 3ms;
 }
 
 .aesthetic-section {
@@ -126,6 +127,39 @@ header .navbar .navbar-text {
   border-radius: 10px;
   border: 2px solid #000000;
   box-shadow: 2px 2px #000000;
+}
+
+.gallery {
+  padding: 0 4vw;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.gallery .text-area {
+  margin-top: 2vh;
+  grid-column-start: 1;
+  grid-column: span 2;
+  background-color: #32150b;
+  color: #ff8080;
+  border-radius: 10px;
+  padding: 6%;
+}
+.gallery .text-area h3 {
+  font-family: Space Grotesk;
+  font-size: 4rem;
+}
+.gallery .pictures-section {
+  grid-column-start: 3;
+  grid-column: span 3;
+}
+.gallery .pictures-section .marco {
+  width: 100%;
+  height: auto;
+  margin: 2vh;
+  border: 3px solid #ebcdc1;
+}
+.gallery .pictures-section .marco img {
+  width: 100%;
 }
 
 footer {
