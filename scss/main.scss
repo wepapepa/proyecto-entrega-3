@@ -96,6 +96,47 @@ header {
     }
 }
 
+.collab-text {
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: Space Grotesk;
+    color: $text;
+}
+
+.regular-cards {
+    
+    .card {
+        
+        border: 1px solid $text;
+        background: linear-gradient($accent, transparent);
+        box-shadow: 0 25px 15px $background;
+        border-radius: 10px;
+        text-align: center;
+        
+        i {
+            font-size: 4rem; 
+            color: $text;   
+        }
+
+        h5 {
+            font-family: Space Grotesk;
+            font-size: 2rem;
+            color: $text;
+        }
+
+        p {
+            color: $background;
+            font-size: 1rem;
+        }
+        
+        a {
+            background-color: $accent;
+            border: 2px solid $primary;
+        }
+    }
+
+}
+
 .card-animation {
     margin-top: 20vh;
     display: flex;
@@ -226,6 +267,7 @@ header {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
+    gap: 50px;
 
     .text-area {
         margin-top: 2vh;
@@ -271,10 +313,11 @@ header {
 
     .pictures-section {
         grid-column-start: 3;
-        grid-column: span 3;
+        grid-column: span 2;
         grid-row-start: 1;
-        grid-row-end: 4;
         border: 2px solid $text;
+        width: 600px;
+        height: 600px;
         
         .carousel-item {
             height: auto;

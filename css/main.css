@@ -81,6 +81,38 @@ header .navbar .navbar-text {
   text-align: right;
 }
 
+.collab-text {
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: Space Grotesk;
+  color: #ebcdc1;
+}
+
+.regular-cards .card {
+  border: 1px solid #ebcdc1;
+  background: linear-gradient(#ff8080, transparent);
+  box-shadow: 0 25px 15px #000000;
+  border-radius: 10px;
+  text-align: center;
+}
+.regular-cards .card i {
+  font-size: 4rem;
+  color: #ebcdc1;
+}
+.regular-cards .card h5 {
+  font-family: Space Grotesk;
+  font-size: 2rem;
+  color: #ebcdc1;
+}
+.regular-cards .card p {
+  color: #000000;
+  font-size: 1rem;
+}
+.regular-cards .card a {
+  background-color: #ff8080;
+  border: 2px solid #7c2f0e;
+}
+
 .card-animation {
   margin-top: 20vh;
   display: flex;
@@ -193,6 +225,7 @@ header .navbar .navbar-text {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20% 20%;
+  gap: 50px;
 }
 .gallery .text-area {
   margin-top: 2vh;
@@ -233,10 +266,11 @@ header .navbar .navbar-text {
 }
 .gallery .pictures-section {
   grid-column-start: 3;
-  grid-column: span 3;
+  grid-column: span 2;
   grid-row-start: 1;
-  grid-row-end: 4;
   border: 2px solid #ebcdc1;
+  width: 600px;
+  height: 600px;
 }
 .gallery .pictures-section .carousel-item {
   height: auto;
