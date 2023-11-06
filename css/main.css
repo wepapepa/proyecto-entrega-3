@@ -81,6 +81,58 @@ header .navbar .navbar-text {
   text-align: right;
 }
 
+.card-animation {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-animation .container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.card-animation .container:hover .glass {
+  transform: rotate(0deg);
+  margin: 0 20px;
+}
+.card-animation .container .glass {
+  width: 16vw;
+  height: 30vh;
+  border: 1px solid #ebcdc1;
+  background: linear-gradient(#ff8080, transparent);
+  box-shadow: 0 25px 15px #000000;
+  border-radius: 10px;
+  margin: 0 -45px;
+  transform: rotate(calc(var(--r) * 1deg));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.card-animation .container .glass::before {
+  position: absolute;
+  content: attr(data-text);
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #32150b;
+  color: #ebcdc1;
+  font-weight: 600;
+}
+.card-animation .container .glass i {
+  font-size: 5rem;
+  color: #ebcdc1;
+}
+
 .icon-column {
   display: flex;
   justify-content: center;

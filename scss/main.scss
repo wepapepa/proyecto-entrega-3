@@ -96,6 +96,66 @@ header {
     }
 }
 
+.card-animation {
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+            
+         &:hover {
+    
+            & .glass {
+                  transform: rotate(0deg);
+                    margin: 0 20px;
+                }
+            }
+
+        .glass {
+            width: 16vw;
+            height: 30vh;
+            border: 1px solid $text;
+            background: linear-gradient($accent, transparent);
+            box-shadow: 0 25px 15px $background;
+            border-radius: 10px;
+            margin: 0 -45px;
+            transform: rotate(calc(var(--r) * 1deg));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+            backdrop-filter: blur(10px);
+        
+                &::before {
+                    position: absolute;
+                    content:attr(data-text);
+                    bottom: 0;
+                    width: 100%;
+                    height: 20%;
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: $secondary;
+                    color: $text;
+                    font-weight: 600; 
+                }
+                
+            i {
+            font-size: 5rem;
+            color: $text;
+            }
+        }
+    }
+}
+
+
 .icon-column {
     display: flex;
     justify-content: center;
