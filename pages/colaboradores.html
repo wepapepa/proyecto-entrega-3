@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">  
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
     <link rel="stylesheet" href="../css/main.css">
 
     <title>PORTO BUENO COFFEE - Colaboradores</title>
@@ -59,7 +60,6 @@
 
             <h2 class="collab-text text-sm-center mt-5">PUEDES COLABORAR EN ESTAS ÁREAS</h2>
             
-
             <div class="regular-cards d-sm-block d-lg-none">
                 <div class="card mb-3">
                     <div class="card-body">
@@ -157,6 +157,8 @@
 
                 <div class="checkbox row">
 
+                    <h4>Seleccione el pronombre con el cual usted prefiere que se le refiera</h4>
+
                     <div class="form-check col-md-3">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">El </label>
@@ -178,19 +180,25 @@
                     </div>
 
                 </div>
-                <div>
+                <div class="row">
+                <div class="input-email col-6">
                     <label for="campo-correo">Ingrese su correo</label>
                     <input type="email" id="campo-correo" placeholder="yo@gmail.com">
                 </div>
-                
 
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Selecciona el área de tu interés</option>
-                    <option value="1">Pintura</option>
-                    <option value="2">Fotografía</option>
-                    <option value="3">Videografía</option>
-                    <option value="3">En vivo</option>
-                </select>
+                <div class="input-option col-6">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Selecciona el área de tu interés</option>
+                        <option value="1">Pintura</option>
+                        <option value="2">Fotografía</option>
+                        <option value="3">Videografía</option>
+                        <option value="3">En vivo</option>
+                    </select>
+                </div>
+                
+                <input type="submit" value="enviar">
+                <input type="reset" value="borrar">
+            </div>
             </div>
         </section>
 

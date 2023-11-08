@@ -1,8 +1,9 @@
-$text: #ebcdc1;
-$background: #000000;
-$primary: #7c2f0e;
-$secondary: #32150b;
-$accent: #ff8080;
+$text: #ffffff;
+$background: #1d0900;
+$primary: #fadfd1;
+$secondary: #5e2103;
+$accent: #f98383;
+
 
 * {
     margin: 0;
@@ -246,7 +247,7 @@ header {
         .location-btn {
             margin-top: 2vh;
             padding: 1vh;
-            background-color: $primary;
+            background-color: $accent;
             color: $text;
             border-radius: 10px;
             border: 2px solid $background;
@@ -296,7 +297,7 @@ header {
             button {
                 margin-top: 2vh;
                 padding: 1vh;
-                background-color: $primary;
+                background-color: $accent;
                 color: $text;
                 border-radius: 10px;
                 border: 2px solid $background;
@@ -331,6 +332,59 @@ header {
     }
 }
 
+.formulario-inscripcion {
+    margin-top: 5vh;
+    border-radius: 10px;
+    background-color: $secondary;
+    color: $text;
+
+    h1 {
+        font-family: Space Grotesk;
+        color: $text;
+        font-size: 3rem;
+        text-align: center;
+        padding: 3vh;
+    }
+
+    .input-group {
+        margin-top: 4vh;
+        padding: 2vh;
+    }
+
+    .checkbox {
+        padding: 3vh;
+        color: $text;
+    }
+
+    input[type="submit"] {
+        margin-top: 2vh;
+        background-color: $primary;
+        color: $background;
+        padding: 10px 20px;
+        border: none; 
+        cursor: pointer;
+        border-radius: 5px; 
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    input[type="reset"] {
+        margin-top: 2vh;
+        background-color: $primary;
+        color: $background;
+        padding: 10px 20px; 
+        border: none; 
+        cursor: pointer; 
+        border-radius: 5px; 
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+}
 
 footer {
     background-color: $background;

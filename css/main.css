@@ -6,35 +6,35 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: #1d0900;
 }
 
 header {
   font-weight: bold;
 }
 header .navbar {
-  background-color: #000000;
+  background-color: #1d0900;
 }
 header .navbar .navbar-brand {
   font-family: Space Grotesk;
   font-style: italic;
   font-weight: 500;
   font-size: 2.5rem;
-  color: #ebcdc1;
+  color: #ffffff;
   margin-right: 2vw;
 }
 header .navbar .nav-link {
-  color: #7c2f0e;
+  color: #fadfd1;
   margin-right: 1vw;
 }
 header .navbar .nav-link.active {
-  color: #ff8080;
-  background-color: #7c2f0e;
+  color: #f98383;
+  background-color: #fadfd1;
   border-radius: 16px;
   padding: 8px;
 }
 header .navbar .navbar-text {
-  color: #ebcdc1;
+  color: #ffffff;
   margin-right: 2vw;
 }
 
@@ -61,7 +61,7 @@ header .navbar .navbar-text {
 }
 .hero-section .title-card h1 {
   font-family: Space Grotesk;
-  color: #ebcdc1;
+  color: #ffffff;
   font-size: 6rem;
   font-weight: bold;
   text-align: right;
@@ -69,13 +69,13 @@ header .navbar .navbar-text {
   margin-right: 6vw;
 }
 .hero-section .title-card h1 span:hover {
-  -webkit-text-stroke: 4px #ff8080;
+  -webkit-text-stroke: 4px #f98383;
   color: transparent;
 }
 .hero-section p {
   margin-top: 2vh;
   margin-right: 6vw;
-  color: #ff8080;
+  color: #f98383;
   font-weight: bold;
   font-size: 1.4rem;
   text-align: right;
@@ -85,32 +85,32 @@ header .navbar .navbar-text {
   font-size: 5rem;
   font-weight: 700;
   font-family: Space Grotesk;
-  color: #ebcdc1;
+  color: #ffffff;
 }
 
 .regular-cards .card {
-  border: 1px solid #ebcdc1;
-  background: linear-gradient(#ff8080, transparent);
-  box-shadow: 0 25px 15px #000000;
+  border: 1px solid #ffffff;
+  background: linear-gradient(#f98383, transparent);
+  box-shadow: 0 25px 15px #1d0900;
   border-radius: 10px;
   text-align: center;
 }
 .regular-cards .card i {
   font-size: 4rem;
-  color: #ebcdc1;
+  color: #ffffff;
 }
 .regular-cards .card h5 {
   font-family: Space Grotesk;
   font-size: 2rem;
-  color: #ebcdc1;
+  color: #ffffff;
 }
 .regular-cards .card p {
-  color: #000000;
+  color: #1d0900;
   font-size: 1rem;
 }
 .regular-cards .card a {
-  background-color: #ff8080;
-  border: 2px solid #7c2f0e;
+  background-color: #f98383;
+  border: 2px solid #fadfd1;
 }
 
 .card-animation {
@@ -133,9 +133,9 @@ header .navbar .navbar-text {
 .card-animation .container .glass {
   width: 16vw;
   height: 30vh;
-  border: 1px solid #ebcdc1;
-  background: linear-gradient(#ff8080, transparent);
-  box-shadow: 0 25px 15px #000000;
+  border: 1px solid #ffffff;
+  background: linear-gradient(#f98383, transparent);
+  box-shadow: 0 25px 15px #1d0900;
   border-radius: 10px;
   margin: 0 -45px;
   transform: rotate(calc(var(--r) * 1deg));
@@ -156,13 +156,13 @@ header .navbar .navbar-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #32150b;
-  color: #ebcdc1;
+  background: #5e2103;
+  color: #ffffff;
   font-weight: 600;
 }
 .card-animation .container .glass i {
   font-size: 5rem;
-  color: #ebcdc1;
+  color: #ffffff;
 }
 
 .icon-column {
@@ -171,12 +171,12 @@ header .navbar .navbar-text {
   align-items: center;
 }
 .icon-column i {
-  color: #32150b;
+  color: #5e2103;
   font-size: 4rem;
   padding: 2vw;
 }
 .icon-column i:hover {
-  color: #ff8080;
+  color: #f98383;
   cursor: pointer;
   font-size: 5rem;
   transition: 50ms;
@@ -184,7 +184,7 @@ header .navbar .navbar-text {
 
 .aesthetic-section {
   margin-top: 1vh;
-  background-color: #000000;
+  background-color: #1d0900;
   width: 100vw;
 }
 .aesthetic-section img {
@@ -195,29 +195,29 @@ header .navbar .navbar-text {
   font-family: Space Grotesk;
   font-weight: 400;
   font-size: 4rem;
-  color: #ff8080;
+  color: #f98383;
 }
 .aesthetic-section p {
-  background-color: #32150b;
+  background-color: #5e2103;
   padding: 4vh;
   margin-top: 2vh;
   border-radius: 20px;
-  border: 2px solid #32150b;
-  color: #ebcdc1;
+  border: 2px solid #5e2103;
+  color: #ffffff;
 }
 .aesthetic-section p .location-btn {
   margin-top: 2vh;
   padding: 1vh;
-  background-color: #7c2f0e;
-  color: #ebcdc1;
+  background-color: #f98383;
+  color: #ffffff;
   border-radius: 10px;
-  border: 2px solid #000000;
-  box-shadow: 2px 2px #000000;
+  border: 2px solid #1d0900;
+  box-shadow: 2px 2px #1d0900;
   transition: transform 50ms, box-shadow 50ms;
 }
 .aesthetic-section p .location-btn:hover {
   transform: translate(2px, 2px);
-  box-shadow: 2px 2px #000000;
+  box-shadow: 2px 2px #1d0900;
 }
 
 .gallery {
@@ -233,7 +233,7 @@ header .navbar .navbar-text {
   grid-column: span 2;
   grid-row-start: 1;
   grid-row-end: 4;
-  color: #ff8080;
+  color: #f98383;
   border-radius: 10px;
   padding: 6%;
 }
@@ -243,32 +243,32 @@ header .navbar .navbar-text {
   font-size: 4rem;
 }
 .gallery .text-area p {
-  background-color: #32150b;
+  background-color: #5e2103;
   padding: 4vh;
   margin-top: 2vh;
   border-radius: 20px;
-  border: 2px solid #32150b;
-  color: #ebcdc1;
+  border: 2px solid #5e2103;
+  color: #ffffff;
 }
 .gallery .text-area p button {
   margin-top: 2vh;
   padding: 1vh;
-  background-color: #7c2f0e;
-  color: #ebcdc1;
+  background-color: #f98383;
+  color: #ffffff;
   border-radius: 10px;
-  border: 2px solid #000000;
-  box-shadow: 2px 2px #000000;
+  border: 2px solid #1d0900;
+  box-shadow: 2px 2px #1d0900;
   transition: transform 50ms, box-shadow 50ms;
 }
 .gallery .text-area p button:hover {
   transform: translate(2px, 2px);
-  box-shadow: 2px 2px #000000;
+  box-shadow: 2px 2px #1d0900;
 }
 .gallery .pictures-section {
   grid-column-start: 3;
   grid-column: span 2;
   grid-row-start: 1;
-  border: 2px solid #ebcdc1;
+  border: 2px solid #ffffff;
   width: 600px;
   height: 600px;
 }
@@ -281,9 +281,55 @@ header .navbar .navbar-text {
      object-fit: cover;
 }
 
+.formulario-inscripcion {
+  margin-top: 5vh;
+  border-radius: 10px;
+  background-color: #5e2103;
+  color: #ffffff;
+}
+.formulario-inscripcion h1 {
+  font-family: Space Grotesk;
+  color: #ffffff;
+  font-size: 3rem;
+  text-align: center;
+  padding: 3vh;
+}
+.formulario-inscripcion .input-group {
+  margin-top: 4vh;
+  padding: 2vh;
+}
+.formulario-inscripcion .checkbox {
+  padding: 3vh;
+  color: #ffffff;
+}
+.formulario-inscripcion input[type=submit] {
+  margin-top: 2vh;
+  background-color: #fadfd1;
+  color: #1d0900;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.formulario-inscripcion input[type=submit]:hover {
+  opacity: 0.8;
+}
+.formulario-inscripcion input[type=reset] {
+  margin-top: 2vh;
+  background-color: #fadfd1;
+  color: #1d0900;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.formulario-inscripcion input[type=reset]:hover {
+  opacity: 0.8;
+}
+
 footer {
-  background-color: #000000;
-  color: #ff8080;
+  background-color: #1d0900;
+  color: #f98383;
 }
 footer h1 {
   writing-mode: vertical-rl;
