@@ -219,6 +219,10 @@ header .navbar .navbar-text {
   transform: translate(2px, 2px);
   box-shadow: 2px 2px #1d0900;
 }
+.aesthetic-section p .location-btn a {
+  text-decoration: none;
+  color: #1d0900;
+}
 
 .gallery {
   padding: 0 4vw;
