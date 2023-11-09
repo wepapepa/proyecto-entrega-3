@@ -421,7 +421,7 @@ header {
 
                 .icons {
                     position: absolute;
-                    bottom: 0;
+                    bottom: -7rem;
                     left: 0;
                     right: 0;
                     display: flex;
@@ -452,6 +452,34 @@ header {
                 .image {
                     img{
                         transform: scale(1.1);
+                    }
+                    .icons {
+                        bottom: 0;
+                    }
+                }
+            }
+
+            .contenido {
+                padding: 2rem;
+                text-align: center;
+
+                h3 {
+                    font-family: Space Grotesk;
+                    font-size: 2rem;
+                    color: $accent;
+                }
+
+                .precio {
+                    font-size: 1.5rem;
+                    color: var(--$accent);
+                    font-weight: 400;
+                    padding-top: 1rem;
+
+                    span {
+                        font-size: .8rem;
+                        color: gray;
+                        font-weight: lighter;
+                        text-decoration-line: line-through;
                     }
                 }
             }
