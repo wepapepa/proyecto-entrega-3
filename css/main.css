@@ -312,6 +312,74 @@ header .navbar .navbar-text {
     grid-row-start: 4;
   }
 }
+.productos {
+  color: #ffffff;
+}
+.productos .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.productos .box-container .box {
+  flex: 1 1 30rem;
+  box-shadow: 0 15px 15px #5e2103;
+  border-radius: 10px;
+  border: 2px solid #f98383;
+  position: relative;
+  font-family: Space Grotesk;
+}
+.productos .box-container .box .descuento {
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: 0.7rem 1rem;
+  font-size: 2rem;
+  color: var(-- #f98383);
+  background-color: #5e2103;
+  border: 2px solid #fadfd1;
+  color: #fadfd1;
+  z-index: 1;
+  border-radius: 40px;
+  font-weight: 800;
+  font-style: italic;
+}
+.productos .box-container .box .image {
+  position: relative;
+  text-align: center;
+  padding-top: 2rem;
+  overflow: hidden;
+}
+.productos .box-container .box .image img {
+  height: 25rem;
+}
+.productos .box-container .box .image .icons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+.productos .box-container .box .image .icons a {
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 1.6rem;
+  width: 50%;
+  background-color: #f98383;
+  color: #ffffff;
+  text-decoration-line: none;
+}
+.productos .box-container .box .image .icons a:hover {
+  background-color: #1d0900;
+}
+.productos .box-container .box .image .icons .cart-btn {
+  border-left: 0.1rem solid #fadfd1;
+  border-right: 0.1rem solid #fadfd1;
+  width: 100%;
+}
+.productos .box-container .box:hover .image img {
+  transform: scale(1.1);
+}
+
 .formulario-inscripcion {
   margin-top: 5vh;
   border-radius: 10px;

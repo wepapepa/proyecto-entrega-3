@@ -377,6 +377,89 @@ header {
     
 }
 
+.productos {
+    color: $text;
+
+    .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+
+        .box {
+            flex: 1 1 30rem;
+            box-shadow: 0 15px 15px $secondary;
+            border-radius: 10px;
+            border: 2px solid $accent;
+            position: relative;
+            font-family: Space Grotesk;
+
+            .descuento {
+                position: absolute;
+                margin-top: 1rem;
+                margin-left: 1rem;
+                padding: .7rem 1rem;
+                font-size: 2rem;
+                color: var(--$accent);
+                background-color: $secondary;
+                border: 2px solid $primary;
+                color: $primary;
+                z-index: 1;
+                border-radius: 40px;
+                font-weight: 800;
+                font-style: italic;
+            }
+
+            .image {
+                position: relative;
+                text-align: center;
+                padding-top: 2rem;
+                overflow: hidden;
+
+                img {
+                    height: 25rem;
+                }
+
+                .icons {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    display: flex;
+
+                    a{
+                        height: 5rem;
+                        line-height: 5rem;
+                        font-size: 1.6rem;
+                        width: 50%;
+                        background-color: $accent;
+                        color: $text;
+                        text-decoration-line: none;
+
+                        &:hover {
+                            background-color: $background;
+                        }
+                    }
+
+                    .cart-btn {
+                        border-left: .1rem solid $primary;
+                        border-right: .1rem solid $primary;
+                        width: 100%;
+                    }
+                }
+            }
+
+            &:hover {
+                .image {
+                    img{
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+
+    }
+}
+
 .formulario-inscripcion {
     margin-top: 5vh;
     border-radius: 10px;
