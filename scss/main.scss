@@ -414,7 +414,16 @@ header {
 }
 
 .productos {
+    margin-top: 5vh;
     color: $text;
+
+    h2 {
+        padding: 30px;
+        font-family: Space Grotesk;
+        text-align: center;
+        color: $text;
+        background-color: $secondary;
+    }
 
     .box-container {
         display: flex;

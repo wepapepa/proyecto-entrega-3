@@ -344,7 +344,15 @@ header .navbar .navbar-text {
   }
 }
 .productos {
+  margin-top: 5vh;
   color: #ffffff;
+}
+.productos h2 {
+  padding: 30px;
+  font-family: Space Grotesk;
+  text-align: center;
+  color: #ffffff;
+  background-color: #5e2103;
 }
 .productos .box-container {
   display: flex;
