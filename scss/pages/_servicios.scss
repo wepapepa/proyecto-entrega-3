@@ -1,0 +1,35 @@
+.servicios-section {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: $background;
+
+    .bloque-servicio {
+        padding: 20px;
+        margin: 10px;
+
+        img {
+            margin: 1vw;
+        }
+        .text-section {
+            margin-top: 2vh;
+            padding: 20px;
+
+            h3 {
+                font-family: Space Grotesk;
+                font-size: 4rem;
+                background-color: $primary;
+                color: $secondary;
+                padding: 3px;
+                border-radius: 20px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 1.8rem;
+                padding: 2vh;
+                color: $text;
+            }
+        }
+
+    }
+}

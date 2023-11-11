@@ -1,0 +1,22 @@
+footer {
+    background-color: $background;
+    color: $accent;
+
+    h1 {
+        writing-mode: vertical-rl;
+        font-size: 4rem;
+        font-family: Space Grotesk;
+        font-style: italic;
+        transform: rotate(180deg);
+    }
+
+    h4 {
+        font-weight: 800;
+        font-style: italic;
+    }
+
+    .container-fluid {
+        width: 75vw;
+    }
+
+  }

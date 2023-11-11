@@ -1,0 +1,87 @@
+$text: #ffffff;
+$background: #1d0900;
+$primary: #fadfd1;
+$secondary: #5e2103;
+$accent: #f98383;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+}
+
+body {
+    background-color: $background;
+}
+
+.icon-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+        color: $secondary;
+        font-size: 4rem;
+        padding: 2vw;
+
+        &:hover {
+            color: $accent;
+            cursor: pointer;
+            font-size: 5rem;
+            transition: 50ms;
+        }
+    }
+}
+
+.aesthetic-section {
+    margin-top: 1vh;
+    background-color: $background;
+    width: 100vw;
+
+    
+    img {
+        width: 700px;
+        
+    }
+
+    h3 {
+        margin-top: 5vh;
+        font-family: Space Grotesk;
+        font-weight: 400;
+        font-size: 4rem;
+        color: $accent;
+    }
+
+    p {
+        background-color: $secondary;
+        padding: 4vh;
+        margin-top: 2vh;
+        border-radius: 20px;
+        border: 2px solid $secondary;
+        color: $text;
+
+        .location-btn {
+            margin-top: 2vh;
+            padding: 1vh;
+            background-color: $accent;
+            color: $text;
+            border-radius: 10px;
+            border: 2px solid $background;
+            box-shadow: 2px 2px $background;
+            transition: transform 50ms, box-shadow 50ms;
+
+            &:hover {
+                transform: translate(2px, 2px);
+                box-shadow: 2px 2px $background;
+            }
+
+            a {
+                text-decoration: none;
+                color: $background;
+            }
+        }
+    }
+
+}
