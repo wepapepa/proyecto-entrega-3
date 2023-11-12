@@ -85,3 +85,9 @@ body {
     }
 
 }
+
+@mixin text-color {
+    color: $text;
+    font-style: italic;
+
+}

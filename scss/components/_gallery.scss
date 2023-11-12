@@ -1,0 +1,105 @@
+.gallery {
+    padding: 0 4vw;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    gap: 50px;
+
+    .text-area {
+
+        margin-top: 2vh;
+        grid-column-start: 1;
+        grid-column: span 2;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        color: $accent;
+        border-radius: 10px;
+        padding: 6%;
+
+        h3 {
+            font-family: Space Grotesk;
+            font-weight: 400;
+            font-size: 4rem;
+        }
+
+        p {
+            background-color: $secondary;
+            padding: 4vh;
+            margin-top: 2vh;
+            border-radius: 20px;
+            border: 2px solid $secondary;
+            color: $text;
+    
+            button {
+                margin-top: 2vh;
+                padding: 1vh;
+                background-color: $accent;
+                color: $text;
+                border-radius: 10px;
+                border: 2px solid $background;
+                box-shadow: 2px 2px $background;
+                transition: transform 50ms, box-shadow 50ms;
+
+                &:hover {
+                    transform: translate(2px, 2px);
+                    box-shadow: 2px 2px $background;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: $background;
+                }
+
+
+            }
+        }
+    }
+
+    .pictures-section {
+        grid-column-start: 3;
+        grid-column: span 2;
+        grid-row-start: 1;
+        border: 2px solid $text;
+        width: 600px;
+        height: 600px;
+        
+        .carousel-item {
+            height: auto;
+
+            & img {
+                width: 100%;
+                object-fit: cover;
+            }
+            
+        }
+    }  
+}
+
+@media (max-width: 1000px) {
+    .gallery {
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+
+        
+
+        .text-area {
+            @include text-color;
+            margin-top: 2vh;
+            padding-top: 1vh;
+            grid-column-start: 1;
+            grid-column: span 4;
+            grid-row-start: 1;
+            grid-row-end: 4;
+            padding: 0;
+            margin-bottom: 0;
+        }
+
+        .pictures-section {
+            grid-column-start: 1;
+            grid-column: span 4;
+            grid-row-start: 4;
+            
+        }
+
+    }   
+}
