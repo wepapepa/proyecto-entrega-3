@@ -466,7 +466,6 @@ header .navbar .navbar-text {
 }
 .productos .box-container .box .contenido .precio {
   font-size: 1.5rem;
-  color: var(-- #f98383);
   font-weight: 400;
   padding-top: 1rem;
 }
