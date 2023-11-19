@@ -487,6 +487,7 @@ header .navbar .navbar-text {
 }
 .servicios-section .bloque-servicio img {
   margin: 1vw;
+  width: 100%;
 }
 .servicios-section .bloque-servicio .text-section {
   margin-top: 2vh;
